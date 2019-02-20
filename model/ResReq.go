@@ -1,4 +1,4 @@
-package model
+package github.com/hantmac/juejinxiaoceToMobi/model
 
 import "time"
 
