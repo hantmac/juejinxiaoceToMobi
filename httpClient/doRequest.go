@@ -1,4 +1,4 @@
-package httpClient
+package github.com/hantmac/juejinxiaoceToMobi/httpClient
 
 import (
 	"bytes"
