@@ -1,4 +1,4 @@
-package config
+package github.com/hantmac/juejinxiaoceToMobi/config
 
 import (
 	"encoding/json"
