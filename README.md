@@ -9,6 +9,7 @@
 
 - 从掘金小册的站点获取client_id,uid,token等信息，填入./config/config.json中
 - go run main.go
+- 对于没有Go环境的小伙伴，在tool文件夹中已经编译好了Linux&Mac版本的可执行文件，./juejinxiaoceToolForLinux或者./juejinxiaoceToolForMac即可
 - 等待你的小册出炉🍺
 
 ### 小白操作步骤
