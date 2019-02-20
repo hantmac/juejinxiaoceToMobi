@@ -1,0 +1,10 @@
+{
+  "token": "xxxx",
+  "client_id": "xxx",
+  "src": "web",
+  "uid": "xxx",
+  "id": "xxxx",
+  "title":"book name",
+  "getUrl": "https://xiaoce-cache-api-ms.juejin.im/v1/get",
+  "getSectionUrl": "https://xiaoce-cache-api-ms.juejin.im/v1/getSection"
+}
