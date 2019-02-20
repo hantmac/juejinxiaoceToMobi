@@ -1,6 +1,6 @@
 package main
 
-import "juejinxiaoceToMobi/processData"
+import "github.com/hantmac/juejinxiaoceToMobi/processData"
 
 func main() {
 	processData.DownloadAndConvert()
