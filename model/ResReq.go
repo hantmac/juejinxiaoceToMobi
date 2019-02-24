@@ -47,7 +47,6 @@ type JueJinResponse struct {
 			AvatarHd            string `json:"avatarHd"`
 			AvatarLarge         string `json:"avatarLarge"`
 			MobilePhoneVerified bool   `json:"mobilePhoneVerified"`
-			IsAuthor            string `json:"isAuthor"`
 			IsXiaoceAuthor      string `json:"isXiaoceAuthor"`
 			BookletCount        int    `json:"bookletCount"`
 			ObjectID            string `json:"objectId"`
