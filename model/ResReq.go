@@ -1,4 +1,4 @@
-package github.com/hantmac/juejinxiaoceToMobi/model
+package model
 
 import "time"
 
@@ -46,7 +46,7 @@ type JueJinResponse struct {
 			Company             string `json:"company"`
 			AvatarHd            string `json:"avatarHd"`
 			AvatarLarge         string `json:"avatarLarge"`
-			MobilePhoneVerified bool   `json:"mobilePhoneVerified"`
+//			MobilePhoneVerified bool   `json:"mobilePhoneVerified"`
 			IsXiaoceAuthor      string `json:"isXiaoceAuthor"`
 			BookletCount        int    `json:"bookletCount"`
 			ObjectID            string `json:"objectId"`
@@ -67,6 +67,30 @@ type JueJinRequestBody struct {
 	ID       string `json:"id"`
 }
 
+//type GetSectionResponse struct {
+//	S int    `json:"s"`
+//	M string `json:"m"`
+//	D struct {
+//		ID           string    `json:"_id"`
+//		Title        string    `json:"title"`
+//		IsFree       bool      `json:"isFree"`
+//		IsFinished   bool      `json:"isFinished"`
+//		User         string    `json:"user"`
+//		ViewCount    int       `json:"viewCount"`
+//		MetaID       string    `json:"metaId"`
+//		Content      string    `json:"content"`
+//		ContentSize  int       `json:"contentSize"`
+//		HTML         string    `json:"html"`
+//		CreatedAt    time.Time `json:"createdAt"`
+//		UpdatedAt    time.Time `json:"updatedAt"`
+//		IsDeleted    bool      `json:"isDeleted"`
+//		Pv           int       `json:"pv"`
+//		CommentCount int       `json:"commentCount"`
+//		SectionID    string    `json:"sectionId"`
+//	} `json:"d"`
+//}
+
+
 type GetSectionResponse struct {
 	S int    `json:"s"`
 	M string `json:"m"`
@@ -86,6 +110,8 @@ type GetSectionResponse struct {
 		IsDeleted    bool      `json:"isDeleted"`
 		Pv           int       `json:"pv"`
 		CommentCount int       `json:"commentCount"`
+
 		SectionID    string    `json:"sectionId"`
 	} `json:"d"`
 }
+

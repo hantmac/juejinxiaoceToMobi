@@ -1,10 +1,10 @@
 {
-  "token": "xxxx",
-  "client_id": "xxx",
+  "token": "xxxxx",
+  "client_id": "xxxx",
   "src": "web",
-  "uid": "xxx",
-  "id": "xxxx",
-  "title":"book name",
+  "uid": "xxxx",
+  "id": "xxxxx",
+  "title":"scrapy打造爬虫部署控制台",
   "getUrl": "https://xiaoce-cache-api-ms.juejin.im/v1/get",
   "getSectionUrl": "https://xiaoce-cache-api-ms.juejin.im/v1/getSection"
 }
