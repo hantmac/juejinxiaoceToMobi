@@ -1,13 +1,13 @@
-package github.com/hantmac/juejinxiaoceToMobi/processData
+package processData
 
 import (
 	"encoding/json"
 	"fmt"
 	"github.com/Ares002/mobi"
 	"github.com/sirupsen/logrus"
-	"github.com/hantmac/juejinxiaoceToMobi/config"
-	"github.com/hantmac/juejinxiaoceToMobi/httpClient"
-	"github.com/hantmac/juejinxiaoceToMobi/model"
+	"juejinxiaoceToMobi/config"
+	"juejinxiaoceToMobi/httpClient"
+	"juejinxiaoceToMobi/model"
 	"net/url"
 	"os"
 )
