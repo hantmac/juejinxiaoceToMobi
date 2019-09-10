@@ -27,7 +27,7 @@
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1g0d3xyiy8gj30k612kgrv.jpg)
 
 4. 可以点击response查看该API的返回信息，对于golang来说也是构造结构体的关键，具体可查看代码；
-5. 通过这个API我们可以获取sectionId的一个数组，每一个sectionId就对应文章中的一节，在第filter中搜索`getSection`，该API就是获取指定sectionId的内容；
+5. 通过这个API我们可以获取sectionId的一个数组，每一个sectionId就对应文章中的一节，在第filter中搜索`getListSection`，该API就是获取指定sectionId的内容；
 
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1g0d430l8vzj30pg0cqmz7.jpg)
 
